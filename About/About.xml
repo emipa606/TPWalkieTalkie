@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>[TP]Walkie-Talkie (Continued)</name>
+  <packageId>Mlie.TPWalkieTalkie</packageId>
+  <author>TrahsPanda</author>
+  <url>https://github.com/emipa606/TPWalkieTalkie</url>
+  <supportedVersions>
+    <li>1.2</li>
+    <li>1.3</li>
+    <li>1.4</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of TrahsPandas mod https://steamcommunity.com/sharedfiles/filedetails/?id=2424065656
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr][td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td] [td][url=https://github.com/emipa606/TPWalkieTalkie][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[spoiler]Hey bud, just wanted to plop this here to ask if you can leave a like on this mod? This mod is something I'll be using in my playthroughs from now on, so a like would be cool. Favorite if you want, I don't mind too much about those. :)[/spoiler]
+
+[h1]DESCRIPTION[/h1]
+
+The Walkie-Talkie is a pre-microelectronics Comms. Console and Orbital Trade Beacon. It requires only 5W of power, costs 40 steel and 1 component to make, and of course, can be placed indoors. Requires Electricity to be researched.
+
+[h1]KNOWN ISSUES[/h1]
+The trade radius is a rough 3 cell area around the Walkie Talkie, but when highlighted or placing it still shows a normal Orbital Trade Beacon's trade radius, being around 7 cells.
+
+Currently incompatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2071695947]RimBank[/url]
+
+[h1]LOAD ORDER[/h1]
+Not really sure, but, I think you want to put this mod as close to core as you possibly can. Above Deep Storage and addons at the least.
+
+[h1]CREDITS[/h1]
+
+Thank you to iforgotmysocks for doing the C# code, send him love.
+Thank you to YouHaveIt for suggesting the mod idea.
+
+Bored? Wanna suggest a mod idea? Join my [url=https://discord.gg/m9K7rWp]Discord.[/url] I'm kinda on a mod rampage right now, so best to put your ideas in now.
+[url=https://www.patreon.com/trahspandamods]My Patreon[/url]
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]</description>
+</ModMetaData>
