@@ -12,7 +12,7 @@ public class PassingShip_CommFloatMenuOption
         Pawn negotiator)
     {
         string text = "CallOnRadio".Translate(__instance.GetCallLabel());
-        if (__instance.GetType().GetMethod("CanCommunicateWith_NewTemp", BindingFlags.Instance | BindingFlags.NonPublic)
+        if (__instance.GetType().GetMethod("CanCommunicateWith", BindingFlags.Instance | BindingFlags.NonPublic)
                 ?.Invoke(__instance, new object[] { negotiator }) is AcceptanceReport { Accepted: true })
         {
             __result = FloatMenuUtility.DecoratePrioritizedTask(

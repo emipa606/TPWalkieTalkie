@@ -33,7 +33,6 @@ Thank you to iforgotmysocks for doing the C# code, send him love.
 Thank you to YouHaveIt for suggesting the mod idea.
 
 Bored? Wanna suggest a mod idea? Join my https://discord.gg/m9K7rWp]Discord. I'm kinda on a mod rampage right now, so best to put your ideas in now.
-https://www.patreon.com/trahspandamods]My Patreon
 
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
@@ -47,3 +46,4 @@ https://www.patreon.com/trahspandamods]My Patreon
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/3023778210]Last updated 2023-08-23

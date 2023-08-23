@@ -1,4 +1,7 @@
 # Changelog for TPWalkieTalkie
 
+1.4.1 - Fixed the walkietalkie working as a trade beacon as well
+
+
 1.4.0 - First publish
 
