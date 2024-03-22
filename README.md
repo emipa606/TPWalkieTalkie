@@ -44,6 +44,9 @@ Bored? Wanna suggest a mod idea? Join my https://discord.gg/m9K7rWp]Discord. I'm
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+-  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/3023778210]Last updated 2023-08-23
+
+https://steamcommunity.com/sharedfiles/filedetails/changelog/3023778210]![Image](https://img.shields.io/github/v/release/emipa606/TPWalkieTalkie?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
+

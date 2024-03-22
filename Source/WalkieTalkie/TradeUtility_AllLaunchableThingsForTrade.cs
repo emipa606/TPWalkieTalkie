@@ -19,12 +19,11 @@ public class TradeUtility_AllLaunchableThingsForTrade
                 foreach (var thing in thingList)
                 {
                     if (thing.def.category != ThingCategory.Item || !TradeUtility.PlayerSellableNow(thing, trader) ||
-                        yieldedThings.Contains(thing))
+                        !yieldedThings.Add(thing))
                     {
                         continue;
                     }
 
-                    yieldedThings.Add(thing);
                     yield return thing;
                 }
             }

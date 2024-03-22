@@ -13,7 +13,7 @@ public class PassingShip_CommFloatMenuOption
     {
         string text = "CallOnRadio".Translate(__instance.GetCallLabel());
         if (__instance.GetType().GetMethod("CanCommunicateWith", BindingFlags.Instance | BindingFlags.NonPublic)
-                ?.Invoke(__instance, new object[] { negotiator }) is AcceptanceReport { Accepted: true })
+                ?.Invoke(__instance, [negotiator]) is AcceptanceReport { Accepted: true })
         {
             __result = FloatMenuUtility.DecoratePrioritizedTask(
                 new FloatMenuOption(text, delegate { console.GiveUseCommsJob(negotiator, __instance); },

@@ -10,7 +10,7 @@ public class Building_WalkieTalkie : Building_CommsConsole
 {
     private const float TradeRadius = 3f;
 
-    private static readonly List<IntVec3> tradeableCells = new List<IntVec3>();
+    private static readonly List<IntVec3> tradeableCells = [];
 
     public IEnumerable<IntVec3> TradeableCells => TradeableCellsAround(Position, Map);
 
@@ -61,7 +61,7 @@ public class Building_WalkieTalkie : Building_CommsConsole
         {
             foreach (var item in r.Cells)
             {
-                if (item.InHorDistOf(pos, 3f))
+                if (item.InHorDistOf(pos, TradeRadius))
                 {
                     tradeableCells.Add(item);
                 }
