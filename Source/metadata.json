@@ -1,6 +1,12 @@
 {
   "Continued": true,
-  "CanAdd": "",
+  "CanAdd": "0",
   "CanRemove": "0",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "LastXmlCleaning": "2025-06-23T20:41:52.7366649+02:00",
+  "SocialImageSet": true,
+  "SearchTags": [
+    " orbital",
+    " trade"
+  ]
 }

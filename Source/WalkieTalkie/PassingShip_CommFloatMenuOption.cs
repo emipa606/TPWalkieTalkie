@@ -5,7 +5,7 @@ using Verse;
 
 namespace WalkieTalkie;
 
-[HarmonyPatch(typeof(PassingShip), "CommFloatMenuOption")]
+[HarmonyPatch(typeof(PassingShip), nameof(PassingShip.CommFloatMenuOption))]
 public class PassingShip_CommFloatMenuOption
 {
     public static void Postfix(ref FloatMenuOption __result, PassingShip __instance, Building_CommsConsole console,

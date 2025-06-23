@@ -14,7 +14,7 @@ public class Building_WalkieTalkie : Building_CommsConsole
 
     public IEnumerable<IntVec3> TradeableCells => TradeableCellsAround(Position, Map);
 
-    private void MakeMatchingStockpile()
+    private void makeMatchingStockpile()
     {
         var des = DesignatorUtility.FindAllowedDesignator<Designator_ZoneAddStockpile_Resources>();
         des.DesignateMultiCell(TradeableCells.Where(c => des.CanDesignateCell(c).Accepted));
@@ -32,15 +32,15 @@ public class Building_WalkieTalkie : Building_CommsConsole
             yield break;
         }
 
-        var command_Action = new Command_Action
+        var commandAction = new Command_Action
         {
-            action = MakeMatchingStockpile,
+            action = makeMatchingStockpile,
             hotKey = KeyBindingDefOf.Misc1,
             defaultDesc = "CommandMakeBeaconStockpileDesc".Translate(),
             icon = ContentFinder<Texture2D>.Get("UI/Designators/ZoneCreate_Stockpile"),
             defaultLabel = "CommandMakeBeaconStockpileLabel".Translate()
         };
-        yield return command_Action;
+        yield return commandAction;
     }
 
     public static List<IntVec3> TradeableCellsAround(IntVec3 pos, Map map)

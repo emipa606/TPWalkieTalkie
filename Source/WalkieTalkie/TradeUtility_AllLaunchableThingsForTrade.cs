@@ -5,7 +5,7 @@ using Verse;
 
 namespace WalkieTalkie;
 
-[HarmonyPatch(typeof(TradeUtility), "AllLaunchableThingsForTrade")]
+[HarmonyPatch(typeof(TradeUtility), nameof(TradeUtility.AllLaunchableThingsForTrade))]
 public class TradeUtility_AllLaunchableThingsForTrade
 {
     public static IEnumerable<Thing> Postfix(IEnumerable<Thing> __result, Map map, ITrader trader = null)
