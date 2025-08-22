@@ -3,10 +3,16 @@
   "CanAdd": "0",
   "CanRemove": "0",
   "PreviewVersion": "1.6",
-  "LastXmlCleaning": "2025-06-23T20:41:52.7366649+02:00",
+  "LastXmlCleaning": "2025-08-22T22:37:41.3673367+02:00",
   "SocialImageSet": true,
   "SearchTags": [
     " orbital",
     " trade"
-  ]
+  ],
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 6986,
+  "LinesOfXML": 2136,
+  "CodeBaseSize": 62
 }

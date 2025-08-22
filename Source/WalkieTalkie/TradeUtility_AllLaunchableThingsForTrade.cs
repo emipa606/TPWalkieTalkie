@@ -10,6 +10,11 @@ public class TradeUtility_AllLaunchableThingsForTrade
 {
     public static IEnumerable<Thing> Postfix(IEnumerable<Thing> __result, Map map, ITrader trader = null)
     {
+        foreach (var thing in __result)
+        {
+            yield return thing;
+        }
+
         var yieldedThings = new HashSet<Thing>();
         foreach (var item in Building_WalkieTalkie.AllPowered(map))
         {
